@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background-color: rgb(26, 146, 146);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+.principal{
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tabela{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.paragrafo-resultado, .bad{
+    background: #90dba9;
+    padding: 20px 10px;
+}
+
+.bad{
+    background: red;
+}
